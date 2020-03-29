@@ -1,0 +1,26 @@
+{
+  "name": "ReactChat",
+  "short_name": "RChat",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "lightblue",
+  "theme_color": "orange",
+  "description": "React chat (RChat)",
+  "icons": [
+    {
+      "src": "images/icon-512.png",
+      "size": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-256.png",
+      "size": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-64.png",
+      "size": "64x64",
+      "type": "image/png"
+    }
+  ]
+}

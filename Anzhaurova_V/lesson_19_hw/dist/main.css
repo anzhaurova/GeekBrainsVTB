@@ -1,0 +1,32 @@
+.messenger {
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+
+.message-list {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgreen;
+  height: 50%;
+  width: calc(100%-40px);
+  padding: 20px;
+  overflow-y: scroll; }
+
+.message {
+  background-color: aquamarine;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 15px; }
+  .message-owner {
+    align-self: flex-end; }
+  .message-bot {
+    align-self: flex-start; }
+  .message-sender {
+    font-size: 0.8em;
+    color: grey; }
+
